@@ -1,0 +1,701 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  body .mp {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0;
+    padding: 16px 144px;
+    width: 100%;   
+  }
+
+  body .mp .logo {
+    display: flex;
+  }
+  
+  body .mp .logo .img {
+    height: 52px;
+    width: 250px;
+  }
+  
+  body .mp .logo .img {
+    vertical-align: top;
+  }
+  
+  body .mp .logo .isotipo > img {
+    display: none;
+  }
+  
+  body .mp .mi{
+    display: flex;
+  }
+  
+  body .mp .items{
+    align-items: center;
+    display: flex;
+  }
+  
+  body .mp .mi .items > p {
+    padding: 8px 25px;
+  }
+  
+  body .mp .mi > img{
+    display: none;
+  }
+  
+  body .mp .mi .boton1 {
+    background: #118596;
+    border: 0;
+    border-radius: 5px;
+    color: #fefefe;
+    padding: 16px 32px;
+  }
+  
+  body ,.Section1 {
+    position: relative;
+  
+  }
+  
+  body .Section1 .Imagen > img {
+    vertical-align: top;
+    width: 100%;
+  }
+  
+  body .Section1 .Titulo-boton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+  }
+  
+  body .Section1 .Titulo-boton > h1 {
+    color: #ffB600;
+    font-size: 48px ;
+    text-align: center;
+    width: 100%;
+  }
+  
+  body .Section1 .Titulo-boton .boton2 {
+    background-color: #ffB600;
+    border: none;
+    border-radius: 5px;
+    font-size: 32px;
+    margin: 50px 0;
+    padding: 16px 32px;
+  }
+  
+  body .Beneficios {
+    display: flex;
+    justify-content: space-between;
+    margin: 144px 0;
+    padding: 0 144px;
+  }
+  
+  body .Beneficios .beneficios-card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 296px;
+    justify-content: center;
+    width: 400px;
+  }
+  
+  body .Beneficios .beneficios-card > span{
+    color: red;
+    font-size: 88px;
+    margin-bottom: 24px;
+  }
+  
+  body .Beneficios .beneficios-card > h2{
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  body .Beneficios .beneficios-card > p{
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+  }
+
+  body .masinformacion {
+    padding-bottom: 100px;
+  }
+  
+  body .masinformacion .Contenido {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 89px 144px;
+    height: 212px;
+    margin-bottom: 24px;
+  }
+  
+  body .masinformacion .Contenido .Titulo > h4 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  body .masinformacion .Contenido .Titulo {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  body .masinformacion .Contenido > p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  body .masinformacion .Contenido .Titulo > span {
+    border: 1px solid #118596;
+    width: 12%;
+  }
+
+  body .masinformacion .boton5 {
+    background: none;
+    border: 2px solid#118596;
+    border-radius: 5px;
+    color: #118596;
+    justify-content: center;
+    padding: 16px 32px;
+    text-align: center;
+    display: none;
+  }
+  
+  body .Cards {
+    display: flex;
+    padding: 0 144px;
+    justify-content: center;
+  }
+  
+  body .Cards .Card1 {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+  }
+  
+  body .Cards .Card1 .Contenido-card {
+    padding: 55px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  body .Cards .Card1 .Contenido-card .Titulo-Card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  body .Cards .Card1 .Imagen-card{
+    flex: 65%;
+    height: 100%;
+  }
+  
+  body .Cards .Card1 .Imagen-card > img {
+    flex: 80%;
+    height: 90%;
+    object-fit: cover;
+    width: 80%;
+  }
+  
+  body .Cards .Card1 .Contenido-card .Titulo-Card > h4 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  
+  body .Cards .Card1 .Contenido-card .Titulo-Card > span {
+    border: 2px solid #118596;
+    justify-content: center;
+    width: 75%;
+  }
+  
+  
+  body .Cards .Card1 .Contenido-card > p {
+    font-size: 24px;
+    margin: 24px 0px;
+    text-align: center;
+  }
+  
+  body .Cards .Card1 .Contenido-card > button {
+    background: none;
+    border: 2px solid#118596;
+    border-radius: 5px;
+    color: #118596;
+    justify-content: center;
+    padding: 16px 32px;
+    text-align: center;
+  }
+  
+  body .Cards .Card2 {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+  }
+  
+  body .Cards .Card2 .Contenido-card2 {
+    padding: 55px;
+    text-align: center;
+    width: 400px;
+  }
+  
+  body .Cards .Card2 .Contenido-card2 .Titulo-Card2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  body .Cards .Card2 .Imagen-card {
+    flex: 65%;
+    height: 100%;
+  }
+  
+  body .Cards .Card2 .Imagen-card > img {
+    flex: 80%;
+    height: 90%;
+    object-fit: cover;
+    width: 80%;
+  }
+  
+  body .Cards .Card2 .Contenido-card2 .Titulo-Card2 > h5 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+  
+  body .Cards .Card2 .Contenido-card2 .Titulo-Card2 > span {
+    border: 2px solid #118596;
+    justify-content: center;
+    width: 75%;
+  }
+  
+  
+  body .Cards .Card2 .Contenido-card2 > p {
+    font-size: 24px;
+    margin: 24px 0px;
+    text-align: center;
+  }
+  
+  body .Cards .Card2 .Contenido-card2 > button {
+    background: none;
+    border: 2px solid#118596;
+    border-radius: 5px;
+    color: #118596;
+    justify-content: center;
+    padding: 16px 32px;
+    text-align: center;
+  }
+  
+  body .masinfo {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+  }
+  
+  body .masinfo .moreinfo .Titulo {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  body .masinfo .moreinfo .Titulo > h6 {
+    font-size: 40px;
+    padding: 54px;
+    text-align: center;
+  }
+  
+  body .masinfo .moreinfo .Titulo > span{
+    border: 2px solid #118596;
+    display: inline-block;
+    width: 10%;
+  }
+  
+  body .masinfo .moreinfo > p {
+    padding: 80px;
+    font-size: 24px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  body .masinfo .moreinfo > button {
+    background: none;
+    border: 2px solid#118596;
+    border-radius: 5px;
+    color: #118596;
+    justify-content: center;
+    padding: 16px 32px;
+    text-align: center;
+  }
+  
+  body .footer {
+    background: #e0e0e0;
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+  }
+  
+  body .footer .izquierda {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 500px;
+  }
+  
+  body .footer .izquierda > span {
+    border: 2px solid #118596;
+    height: 20px;
+  }
+  
+  body .footer .derecha {
+    gap: 24px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  body .footer .derecha .campus {
+    flex-direction: column;
+  }
+
+  body .footer .derecha .campus > p {
+    padding: 5px 0;
+  }
+
+  body .footer .derecha .campus2 > p {
+    padding: 5px 0;
+  }
+
+  body .footer .derecha .campus3 > p {
+    padding: 5px 0;
+  }
+
+  
+  
+  /*media querie*/
+  
+  @media only screen and (max-width: 361px) {
+    body .mp{
+      padding: 21px 46px;
+    }
+
+    body .mp .logo .normal > img {
+      display: none;
+    }
+    body .mp .logo .isotipo > img {
+      display: unset;
+    }
+    body .mp .mi > img {
+      display: unset;
+    }
+    body .Section1 .Titulo-boton {
+      justify-items: center;
+      text-align: center;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      width: 312px;
+      height: 300px;
+    }
+    body .Section1 .Imagen > img {
+      flex: 50%;
+      height: 553px;
+      object-fit: cover;
+      width: 360px;
+    }
+    body .Section1 .Titulo-boton > h1 {
+      font-size: 32px;
+    }
+    body .Section1 .Titulo-boton .boton2 {
+      height: 52px;
+      width: 154px;
+      font-size: 16px;
+    }
+
+    body .Beneficios {
+      
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+    }
+
+    body .Beneficios .beneficios-card{
+      justify-content: center;
+    }
+
+    body .Beneficios .beneficios-card > span {
+      font-size: 58px;
+      padding: 48px;
+    }
+
+    body .Beneficios .beneficios-card > h2 {
+      font-size: 32px;
+      width: 312px;
+    }
+
+    body .Beneficios .beneficios-card > p {
+      font-size: 16px;
+      width: 312px;
+    }
+
+    body .masinformacion {
+      justify-content: center;
+      text-align: center;
+      height: 900px;
+      width: 100%;
+    }
+
+    body .masinformacion .Contenido {
+      text-align: center;
+      justify-content: center;
+      height: 300px;
+      padding: 50px 25px;
+      width: 312px;
+
+    }
+
+    
+    body .masinformacion .Contenido .Titulo > span {
+      width: 35%;
+
+    }
+
+    body .masinformacion .Contenido > p {
+      font-size: 16px;
+    }
+    
+    body .masinformacion .Video {
+      display: none;
+    }
+
+    body .masinformacion .boton5 {
+      display: unset;
+    }
+
+    body .Cards {
+      align-items: center;
+      flex-direction: column;
+      width: 360px;
+      justify-content: center;
+    }
+    body .Cards .Card1 {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      align-items: center;
+      justify-content: center;
+      width: 360px;
+    }
+    body .Cards .Card1 .Imagen-card > img {
+      flex: 200%;
+      height: 600px;
+      object-fit: cover;
+      width: 360px;
+    }
+
+    body .Cards .Card1 .Contenido-card > p {
+      font-size: 16px;
+    }
+
+    body .Cards .Card2 {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      align-items: center;
+      justify-content: center;
+      width: 312px;
+    }
+
+    body .Cards .Card2 .Contenido-card2 > p {
+      font-size: 16px;
+    }
+
+    body .Cards .Card2 .Imagen-card > img {
+      flex: 360px;
+      height: 600px;
+      object-fit: cover;
+      width: 360px;
+    }
+    body .masinfo {
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 100px;
+    }
+
+    body .masinfo .moreinfo .Titulo > span {
+      width: 200px;
+    }
+
+    body .masinfo .moreinfo > p {
+      font-size: 16px;
+      height: 144px;
+      width: 312px;
+    }
+
+    body .footer {
+      padding: 20px 85px;
+      justify-content: center;
+      position: absolute;
+      width: 360px;
+    }
+
+    body .footer.izquierda {
+      height: 144px;
+      width: 312px;
+    }
+
+
+    body .footer .derecha .campus > p {
+      
+      padding-top: 15px;
+    }
+    body .footer .derecha .campus2 > p {
+      padding-top: 15px;
+    }
+    body .footer .derecha .campus3 > p {
+      padding-top: 15px;
+    }
+  }
+  
+
+
+  @media only screen and (max-width: 1367px){
+    body .Cards {
+      align-items: center;
+      flex-direction: column;
+      width: 900px;
+      justify-content: center;
+    }
+
+    body .Cards .Card1 .Imagen-card > img {
+      flex: 200%;
+      height: 480px;
+      object-fit: cover;
+      width: 450px;
+    }
+
+    body .Cards .Card2 .Imagen-card > img {
+      flex: 200%;
+      height: 480px;
+      object-fit: cover;
+      width: 450px;
+    }
+
+
+  }
+
+
+
+
+
+  @media only screen and (max-width: 831px) {
+    body .mp{
+      padding: 21px 46px;
+    }
+    body .mp .mi .items {
+      display: none;
+    }
+    body .mp .mi > img {
+      
+      display: unset;
+    }
+
+    body .Section1 .Titulo-boton > h1 {
+      padding-left: 48px;
+      padding-right: 100px;
+      width: 75%;
+    }
+    body .Beneficios {
+      
+      align-items: center;
+      flex-direction: column;
+    }
+
+    body .masinformacion .Contenido {
+      padding-bottom: 40px;
+    }
+    body .masinformacion .Contenido .Titulo {
+      padding-bottom: 40px;
+    }
+
+    body .masinformacion .Contenido .Titulo > h4 {
+      padding-bottom: 40px;
+    }
+
+    body .Video {
+      padding-bottom: 50px;
+    }
+
+    body .Cards {
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+      width: 100%;
+      justify-content: center;
+    }
+    body .Cards .Card1 {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    body .Cards .Card1 .Imagen-card .img {
+      flex: 50%;
+      height: 60%;
+      object-fit: cover;
+      width: 70%;
+    }
+    body .Cards .Card2 {
+      display: flex;
+      flex-wrap: wrap-reverse;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    body .Cards .Card2 .Imagen-card .img {
+      flex: 50%;
+      height: 60%;
+      object-fit: cover;
+      width: 70%;
+    }
+    body .masinfo {
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 100px;
+    }
+    body .footer {
+      flex-wrap: wrap-reverse;
+      gap: 30px;
+      width: 52%;
+    }
+    body .footer .izquierda {
+      justify-content: center;
+      gap: 20px;
+    }
+    body .footer .derecha {
+      justify-content: center;
+      gap: 30px;
+      padding: 20px 20px;
+    }
+    body .footer .derecha .campus > p {
+      padding-top: 15px;
+    }
+    body .footer .derecha .campus2 > p {
+      padding-top: 15px;
+    }
+    body .footer .derecha .campus3 > p {
+      padding-top: 15px;
+    }
+  }
+  
